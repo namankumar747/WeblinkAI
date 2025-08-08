@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebLink AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <span>🤖 WebLink AI</span>
+    <button class="switch-button" onclick="window.location.href='index.html'">↩️ Back to WebSearch Mode</button>
+  </div>
+
+  <div class="chat-window" id="chatWindow"></div>
+
+  <div class="input-area" style="flex-direction: column; gap: 10px;">
+    <div style="display: flex; gap: 10px; width: 100%;">
+      <input type="text" id="linkInput" placeholder="Enter link here">
+      <button onclick="processLink()">Process Link</button>
+    </div>
+    <div style="display: flex; gap: 10px; width: 100%;">
+      <input type="text" id="userInput" placeholder="Write your query">
+      <button onclick="linkResponse()">➤</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebLink AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <span>🤖 WebLink AI</span>
+    <button class="switch-button" onclick="window.location.href='link_mode.html'">🔁 Switch to Link Mode</button>
+  </div>
+
+  <div class="chat-window" id="chatWindow"></div>
+
+  <div class="input-area">
+    <input type="text" id="userInput" placeholder="Write your query">
+    <button onclick="sendMessage()">➤</button>
+    <div class="web-search">🌐 Web Search</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
