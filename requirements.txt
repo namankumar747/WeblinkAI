@@ -1,0 +1,10 @@
+fastapi 
+uvicorn 
+requests 
+google-generativeai 
+newspaper3k 
+lxml
+faiss-cpu
+sentence-transformers
+lxml_html_clean
+python-multipart
