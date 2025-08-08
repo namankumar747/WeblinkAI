@@ -4,34 +4,34 @@
 
 ## ✨ Features
 
-- 🤖 AI-Powered Query Handling – Answers user queries using advanced web search and NLP techniques.
-- 🌐 Multi-Source Summarization – Gathers and summarizes content from multiple websites for accurate, contextual responses.
-- 💬 Chatbot-Style Interface – Interactive, user-friendly conversation experience.
-- 🔗 URL-Specific Querying – Allows users to input a specific URL and ask questions about its content.
-- ⚡ Dynamic Content Parsing – Extracts, processes, and analyzes web content in real time.
-- 🧠 LLM Integration – Uses large language models for semantic understanding, summarization, and contextual reasoning.
+- **🤖 AI-Powered Query Handling** – Answers user queries using advanced web search and NLP techniques.
+- **🌐 Multi-Source Summarization** – Gathers and summarizes content from multiple websites for accurate, contextual responses.
+- **💬 Chatbot-Style Interface** – Interactive, user-friendly conversation experience.
+- **🔗 URL-Specific Querying** – Allows users to input a specific URL and ask questions about its content.
+- **⚡ Dynamic Content Parsing** – Extracts, processes, and analyzes web content in real time.
+- **🧠 LLM Integration** – Uses large language models for semantic understanding, summarization, and contextual reasoning.
 
 ## 🔧 Tech Stack
 
 ### 🧠 AI / Language Processing
-- Google Gemini API – Powers semantic understanding, summarization, and contextual reasoning
-- NLP Techniques – Used for query parsing, keyword extraction, and meaningful response generation
-- SentenceTransformer (all-MiniLM-L6-v2) – Converts text into semantic vector embeddings for similarity search
+- **Google Gemini API** – Powers semantic understanding, summarization, and contextual reasoning
+- **NLP Techniques** – Used for query parsing, keyword extraction, and meaningful response generation
+- **SentenceTransformer (all-MiniLM-L6-v2)** – Converts text into semantic vector embeddings for similarity search
 
 ### 📦 Vector Database
-- FAISS – Efficient similarity search and retrieval of relevant content using vector embeddings
+- **FAISS** – Efficient similarity search and retrieval of relevant content using vector embeddings
 
 ### 💻 Backend
-- Python – Core programming language for backend logic and AI integration
-- FastAPI – High-performance Python framework for building and serving APIs
+- **Python** – Core programming language for backend logic and AI integration
+- **FastAPI** – High-performance Python framework for building and serving APIs
 
 ### 🌐 Web Search & Data Retrieval
-- SerpAPI – Fetches search results from multiple sources for accurate, real-time information retrieval
+- **SerpAPI** – Fetches search results from multiple sources for accurate, real-time information retrieval
 
 ### 🖥️ Frontend
-- HTML – Structures the chatbot-style web interface
-- CSS – Styles and formats the frontend for a responsive and user-friendly experience
-- JavaScript – Enables interactive features and API communication between frontend and backend
+- **HTML** – Structures the chatbot-style web interface
+- **CSS** – Styles and formats the frontend for a responsive and user-friendly experience
+- **JavaScript** – Enables interactive features and API communication between frontend and backend
 
 
 ## 📂 Project Structure
